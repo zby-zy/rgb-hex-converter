@@ -1,1 +1,1 @@
-# rgb-hex-converter
+# RGB Hex Converter
