@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB-Hex Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <label for="rgb">RGB</label>
+            <input type="text" id="rgb" oninput="toHex()" placeholder="Enter RGB Value">
+        </div>
+        <div class="wrapper">
+            <label for="hex">HEX</label>
+            <input type="text" id="hex" oninput="toRgb()" placeholder="Enter Hex Value">
+        </div>
+    </div>
+    <!--Script-->
+    <script src="script.js"></script>
+</body>
+</html>
